@@ -78,7 +78,3 @@ More agents are planned (LinkedIn and shopping), along with a layer that runs th
 ## Author
 
 Shubh Sharma ([@neural-shubh](https://github.com/neural-shubh))
-
-## License
-
-Not specified yet. Add a `LICENSE` file before sharing this publicly.

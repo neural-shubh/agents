@@ -1,0 +1,77 @@
+Local AI Agent & Support Ticket RAG
+
+A local LLM project powered by LangChain, Ollama, and Chroma DB. This project demonstrates two core capabilities for local data processing:
+
+Data Analysis Assistant (main.py): Prompts a local Llama model (llama3.2) to inspect, query, and analyze messy CSV datasets.
+
+Support Ticket Vector Store (vectorbase.py): Uses local embeddings (mxbai-embed-large) to ingest and index customer support tickets into a Chroma vector database for semantic retrieval.
+
+📁 Project Structure
+
+.
+├── main.py              # Interactive CLI session with Ollama Llama 3.2
+├── vectorbase.py        # Vector database setup & document indexing via Chroma DB
+├── support_tickets.csv  # Sample dataset containing support ticket records
+├── requirements.txt     # Python dependencies
+└── README.md            # Project documentation
+
+
+🚀 Getting Started
+
+1. Prerequisites
+
+Make sure you have Ollama installed and running on your system.
+
+Pull the required local models:
+
+# Pull the LLM model
+ollama pull llama3.2
+
+# Pull the embedding model
+ollama pull mxbai-embed-large
+
+
+2. Installation
+
+Clone or download this repository.
+
+Install dependencies:
+
+pip install -r requirements.txt
+
+
+Dependencies included in requirements.txt:
+
+langchain
+
+langchain-ollama
+
+langchain-chroma
+
+pandas (required for CSV data processing)
+
+🛠️ Usage
+
+Running the Data Assistant (main.py)
+
+Launch an interactive prompt session with the local LLM designed to analyze structured/unstructured dataset contexts safely:
+
+python main.py
+
+
+Features: Uses prompt engineering guidelines to handle messy datasets (inconsistent casing, extra spaces, missing values, date format variances) and prevents hallucination.
+
+Building the Vector Database (vectorbase.py)
+
+To build the Chroma vector store from support_tickets.csv:
+
+python vectorbase.py
+
+
+Features: Loads ticket data from support_tickets.csv, generates embeddings using mxbai-embed-large, and persists them locally under ./chromea_langchain_db.
+
+📝 Configuration & Notes
+
+Data Path: Ensure the file path to support_tickets.csv in vectorbase.py matches your local setup.
+
+Database Directory: The persistent database will be automatically created at ./chromea_langchain_db upon first execution.

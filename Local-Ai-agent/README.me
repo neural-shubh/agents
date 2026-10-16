@@ -1,77 +1,192 @@
-Local AI Agent & Support Ticket RAG
+# Local AI Agent & Support Ticket RAG
 
-A local LLM project powered by LangChain, Ollama, and Chroma DB. This project demonstrates two core capabilities for local data processing:
+A local-first AI project exploring **LLM-powered data analysis** and **Retrieval-Augmented Generation (RAG)** using LangChain, Ollama, and ChromaDB.
 
-Data Analysis Assistant (main.py): Prompts a local Llama model (llama3.2) to inspect, query, and analyze messy CSV datasets.
+The project combines two practical workflows: analyzing messy CSV datasets with a locally running language model and converting customer support tickets into a searchable vector database for semantic retrieval.
 
-Support Ticket Vector Store (vectorbase.py): Uses local embeddings (mxbai-embed-large) to ingest and index customer support tickets into a Chroma vector database for semantic retrieval.
+## ✨ Features
 
-📁 Project Structure
+### 📊 1. Local Data Analysis Assistant
 
-.
-├── main.py              # Interactive CLI session with Ollama Llama 3.2
-├── vectorbase.py        # Vector database setup & document indexing via Chroma DB
-├── support_tickets.csv  # Sample dataset containing support ticket records
+**Entry point:** `main.py`
+
+An interactive CLI assistant powered by Llama 3.2 through Ollama, designed to help inspect and reason about messy datasets.
+
+- Works with structured data and dataset-related questions.
+- Uses prompt instructions to account for common data-quality issues, including inconsistent casing, extra whitespace, missing values, and varying date formats.
+- Runs the language model locally through Ollama.
+
+### 🔎 2. Support Ticket Vector Store
+
+**Entry point:** `vectorbase.py`
+
+A semantic indexing pipeline that transforms customer support tickets into searchable vector representations.
+
+- Loads support ticket records from `support_tickets.csv`.
+- Generates embeddings locally using `mxbai-embed-large`.
+- Stores vectors in ChromaDB for semantic similarity search.
+- Persists the vector database locally so it can be reused.
+
+This component provides the foundation for a support-ticket retrieval system that can retrieve relevant tickets based on meaning rather than exact keyword matches.
+
+## 🏗️ Architecture
+
+```text
+                 LOCAL AI PROJECT
+                        |
+          +-------------+-------------+
+          |                           |
+          v                           v
+   Data Analysis                Ticket Retrieval
+          |                           |
+       main.py                  vectorbase.py
+          |                           |
+          v                           v
+    Ollama + Llama 3.2         support_tickets.csv
+          |                           |
+          v                           v
+   Dataset Q&A              mxbai-embed-large
+                                      |
+                                      v
+                                   ChromaDB
+                                      |
+                                      v
+                              Persistent Vectors
+```
+
+## 📁 Project Structure
+
+```text
+Local-Ai-agent/
+├── main.py              # Interactive local data analysis assistant
+├── vectorbase.py        # Support ticket embedding and indexing
+├── support_tickets.csv  # Sample support ticket dataset
 ├── requirements.txt     # Python dependencies
 └── README.md            # Project documentation
+```
 
+## ⚙️ Tech Stack
 
-🚀 Getting Started
+| Technology | Purpose |
+|---|---|
+| Python | Core implementation |
+| [LangChain](https://www.langchain.com/) | LLM and document-processing integrations |
+| [Ollama](https://ollama.com/) | Local model execution |
+| [Llama 3.2](https://ollama.com/library/llama3.2) | Language model for data analysis |
+| [mxbai-embed-large](https://ollama.com/library/mxbai-embed-large) | Text embeddings for semantic retrieval |
+| [ChromaDB](https://www.trychroma.com/) | Vector storage and similarity search |
+| Pandas | CSV data processing |
 
-1. Prerequisites
+## 🚀 Getting Started
 
-Make sure you have Ollama installed and running on your system.
+### Prerequisites
 
-Pull the required local models:
+Before running the project, ensure you have:
 
-# Pull the LLM model
-ollama pull llama3.2
+- Python installed.
+- [Ollama](https://ollama.com/download) installed and running.
+- Git installed if you plan to clone the repository.
 
-# Pull the embedding model
-ollama pull mxbai-embed-large
+### 1. Download the project
 
+Clone the repository containing this project, then navigate to its directory.
 
-2. Installation
+```bash
+git clone <repository-url>
+cd Local-Ai-agent
+```
 
-Clone or download this repository.
+Alternatively, download the repository as a ZIP and extract it.
 
-Install dependencies:
+### 2. Set up the environment
 
+Create and activate a virtual environment.
+
+**Windows — PowerShell**
+
+```powershell
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+```
+
+**Linux / macOS**
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
+
+Install the required Python packages:
+
+```bash
 pip install -r requirements.txt
+```
 
+### 3. Download the required models
 
-Dependencies included in requirements.txt:
+Run the following commands in your terminal:
 
-langchain
+```bash
+ollama pull llama3.2
+ollama pull mxbai-embed-large
+```
 
-langchain-ollama
+Make sure the Ollama service is running before executing either script.
 
-langchain-chroma
+## 💻 Usage
 
-pandas (required for CSV data processing)
+### Run the Data Analysis Assistant
 
-🛠️ Usage
-
-Running the Data Assistant (main.py)
-
-Launch an interactive prompt session with the local LLM designed to analyze structured/unstructured dataset contexts safely:
-
+```bash
 python main.py
+```
 
+Start an interactive session and use the assistant to explore dataset-related questions supported by the implementation.
 
-Features: Uses prompt engineering guidelines to handle messy datasets (inconsistent casing, extra spaces, missing values, date format variances) and prevents hallucination.
+### Build the Support Ticket Vector Store
 
-Building the Vector Database (vectorbase.py)
+Ensure `support_tickets.csv` is available at the path expected by `vectorbase.py`, then run:
 
-To build the Chroma vector store from support_tickets.csv:
-
+```bash
 python vectorbase.py
+```
 
+The script processes the support ticket records, generates embeddings, and builds a persistent ChromaDB vector store.
 
-Features: Loads ticket data from support_tickets.csv, generates embeddings using mxbai-embed-large, and persists them locally under ./chromea_langchain_db.
+**Database location:** `./chromea_langchain_db`
 
-📝 Configuration & Notes
+The directory is created or populated by the indexing workflow, depending on the implementation. Keep the generated database files if you want to reuse the stored vectors.
 
-Data Path: Ensure the file path to support_tickets.csv in vectorbase.py matches your local setup.
+## 🔧 Configuration
 
-Database Directory: The persistent database will be automatically created at ./chromea_langchain_db upon first execution.
+Before running the scripts, check the following:
+
+- **Dataset path:** Make sure `support_tickets.csv` exists at the location configured in `vectorbase.py`.
+- **Ollama models:** The model names in the code must match the models available in Ollama.
+- **Vector database path:** Verify that the configured persistence directory matches `./chromea_langchain_db`.
+- **Dependencies:** Keep `requirements.txt` aligned with the packages imported by the project.
+
+## 🎯 Project Goals
+
+This project explores how local AI components can be combined to build useful data workflows:
+
+- Run language models without relying on a hosted LLM API for inference.
+- Use an LLM to assist with dataset exploration.
+- Convert unstructured support ticket text into vector embeddings.
+- Enable semantic retrieval using a persistent vector database.
+- Build a foundation for more advanced local RAG applications.
+
+## 🔮 Potential Improvements
+
+- Add a retrieval interface that accepts natural-language questions about support tickets.
+- Connect retrieved ticket context to an LLM to generate grounded answers.
+- Add metadata filtering by ticket category, priority, or status.
+- Improve CSV validation and error handling.
+- Add automated tests for data processing and vector indexing.
+
+## 📌 Notes
+
+- Local execution still requires sufficient system resources for the selected models.
+- The data analysis assistant's accuracy depends on its implementation, prompt design, and available context.
+- Creating a vector database enables retrieval, but a complete RAG question-answering pipeline also needs to retrieve relevant documents and use them to construct grounded responses.
+- Avoid indexing sensitive customer information unless you have permission and appropriate safeguards.

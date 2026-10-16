@@ -1,0 +1,18 @@
+{
+  "dry_run": false,
+  "storage_check_interval_hours": 2,
+  "junk_cleanup_daily_hour": 3,
+  "weekly_scan_day": "sunday",
+  "weekly_scan_hour": 4,
+  "updates_check_daily_hour": 9,
+  "disk_free_threshold_percent": 10,
+  "disk_free_threshold_gb": 20,
+  "quarantine_retention_days": 7,
+  "recycle_bin_min_age_days": 30,
+  "large_file_min_mb": 511,
+  "large_file_idle_days": 180,
+  "duplicate_min_size_mb": 100,
+  "tier1_auto_approve": true,
+  "data_dir": "data",
+  "install_at_login": false
+}

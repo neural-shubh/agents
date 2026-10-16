@@ -1,0 +1,203 @@
+ticket_id,created_at,customer_id,city,channel,category,priority,status,assigned_agent,message,resolution_hours,csat_score
+T1001,2026-01-07 23:17,C108,Mumbai,email,Billing,medium,in_progress,Aarav,I was charged twice for my subscription this month.,,
+T1002,2026-02-25 07:32,C114,Kolkata,phone,Billing,high,resolved,Aarav,My invoice shows the wrong amount.,54.1,4
+T1003,2026-03-29 08:09,C148,Chennai,email,Feedback,low,in_progress,Aarav,Please add support for batch uploads.,,
+T1004,2026-06-04 08:51,C129,Mumbai,web form,Account,low,open,Rohan,How do I change the email on my profile?,,
+T1005,2026-02-19 22:04,C114,Pune,email,Shipping,high,open,Aarav,Wrong item delivered.,,
+T1006,2026-04-27 20:53,C142,Pune,email,Account,medium,resolved,Meera,Please delete my account and all my data.,35.9,4
+T1007,2026-04-29 12:17,C143,Chennai,email,Technical,low,closed,Aarav,Uploaded images are not showing in my gallery.,61.6,4
+T1008,2026-03-10 02:13,C113,Kolkata,web form,Feedback,high,closed,,Search results feel slow and unhelpful.,54.7,5
+T1009,2026-03-09 04:15,C157,Hyderabad,phone,Technical,low,closed,Meera,The export to CSV button does nothing.,52.0,4
+T1010,2026-07-13 01:55,C140,Delhi,web form,Billing,medium,open,Sana,Coupon code isn't applying at checkout.,,
+T1011,2026-04-30 16:16,C143,Mumbai,phone,Shipping,HIGH,closed,Rohan,My order hasn't arrived after 10 days.,82.7,1
+T1012,2026-04-22 05:29,C146,Pune,chat,Account,medium,open,Aarav,How do I change the email on my profile?,,
+T1013,2026-06-05 06:09,C138,Chennai,web form,Shipping,low,resolved,Rohan,Package arrived damaged.,15.9,1
+T1014,2026-01-15 07:56,C152,Mumbai,chat,Technical,low,resolved,Sana,Login keeps failing with a timeout error.,8.0,
+T1015,2026-05-16 19:27,C145,Pune,web form,Account,urgent,closed,,How do I change the email on my profile?,89.2,4
+T1016,2026-08-19 16:28,C114,Mumbai,phone,Feedback,low,open,Kabir,The onboarding tutorial was confusing.,,
+T1017,2026-02-26 00:04,C157,Indore,phone,Shipping,low,closed,Meera,Package arrived damaged.,6.1,2
+T1018,2026-02-24 17:08,C115,Kolkata,web form,Feedback,low,closed,Aarav,Search results feel slow and unhelpful.,84.8,
+T1019,2026-04-19 13:29,C103,Hyderabad,phone,Account,high,closed,Aarav,Please delete my account and all my data.,5.7,2
+T1020,2026-02-18 17:28,C111,Pune,web form,Technical,low,open,Aarav,The export to CSV button does nothing.,,
+T1021,2026-01-26 01:41,C159,Bengaluru,chat,Shipping,medium,closed,Sana,Tracking number shows no updates.,80.3,2
+T1022,2026-08-20 01:10,C159,Kolkata,phone,Feedback,medium,resolved,,Search results feel slow and unhelpful.,94.6,5
+T1023,2026-02-18 09:13,C147,Chennai,email,Technical,low,closed,Sana,Login keeps failing with a timeout error.,55.8,1
+T1024,2026-09-03 16:05,C143,Bengaluru,web form,Billing,low,closed,Kabir,My invoice shows the wrong amount.,7.0,2
+T1025,2026-06-02 01:39,C142,Chennai,phone,Shipping,low,open,,Package arrived damaged.,,
+T1026,2026-03-09 12:08,C159, indore ,email,Technical,medium,resolved,Kabir,The app crashes every time I open the camera feature.,29.1,5
+T1027,2026-05-18 06:32,C159,Chennai,email,Billing,high,in_progress,Rohan,I need a refund for an accidental purchase.,,
+T1028,2026-04-23 17:45,C142,Pune,email,Technical,urgent,resolved,Meera,Uploaded images are not showing in my gallery.,94.5,1
+T1029,2026-08-16 03:47,C145,Chennai,chat,Billing,medium,resolved,Rohan,Coupon code isn't applying at checkout.,26.5,4
+T1030,2026-08-20 01:05,C100,Chennai,chat,Account,medium,resolved,Rohan,Please delete my account and all my data.,79.7,1
+T1031,2026-05-22 22:27,C134,Indore,phone,Feedback,medium,resolved,Meera,Search results feel slow and unhelpful.,11.2,3
+T1032,2026-01-11 09:23,C157,Chennai,chat,Technical,medium,closed,,The app crashes every time I open the camera feature.,76.5,1
+T1033,2026-07-19 17:56,C159,Bengaluru,chat,Account,urgent,closed,Meera,Two-factor codes are not being accepted.,93.5,3
+T1034,2026-02-15 23:59,C117,Delhi,email,Billing,medium,resolved,Aarav,Coupon code isn't applying at checkout.,89.4,4
+T1035,2026-02-21 14:22,C114,Indore,chat,Technical,medium,resolved,Rohan,The app crashes every time I open the camera feature.,76.5,4
+T1036,2026-03-31 20:32,C160,Indore,email,Account,high,resolved,Rohan,Please delete my account and all my data.,94.2,5
+T1037,2026-09-04 08:02,C127,Chennai,phone,Shipping,medium,open,Kabir,My order hasn't arrived after 10 days.,,
+T1038,2026-08-19 18:12,C145,Hyderabad,email,Feedback,medium,in_progress,Kabir,The onboarding tutorial was confusing.,,
+T1039,2026-04-21 02:42,C146,Pune,phone,Account,medium,closed,Rohan,Two-factor codes are not being accepted.,60.0,2
+T1040,2026-05-22 04:12,C139,Pune,web form,Account,medium,resolved,Aarav,How do I change the email on my profile?,90.3,3
+T1041,2026-02-23 13:50,C128,Kolkata,chat,billing,medium,resolved,,Please delete my account and all my data.,63.0,
+T1042,2026-03-14 16:42,C143,Pune,chat,Billing,high,resolved,Meera,I was charged twice for my subscription this month.,32.5,4
+T1043,2026-03-04 15:39,C156,Bengaluru,web form,Billing,medium,closed,Meera,My invoice shows the wrong amount.,7.5,4
+T1044,2026-08-17 03:49,C103,Bengaluru,email,Billing,medium,resolved,Sana,I need a refund for an accidental purchase.,17.3,
+T1045,2026-06-06 23:57,C157,Delhi,web form,Feedback,medium,resolved,Meera,Please add support for batch uploads.,79.8,
+T1046,2026-05-05 20:15,C104,Pune,chat,Shipping,low,in_progress,Rohan,My order hasn't arrived after 10 days.,,
+T1047,2026-02-08 07:24,C126,Hyderabad,phone,Technical,medium,resolved,Sana,The app crashes every time I open the camera feature.,68.0,2
+T1048,2026-08-02 13:24,C154,Hyderabad,web form,Technical,low,closed,Rohan,Uploaded images are not showing in my gallery.,56.3,1
+T1049,2026-08-07 13:34,C131,Bengaluru,phone,Feedback,medium,closed,Aarav,Search results feel slow and unhelpful.,52.7,4
+T1050,2026-06-21 21:51,C158,Delhi,email,Account,urgent,resolved,Kabir,"I can't reset my password, the email never arrives.",16.3,
+T1051,2026-06-14 13:08,C124,Chennai,chat,Billing,medium,closed,Rohan,Coupon code isn't applying at checkout.,17.9,5
+T1052,2026-07-12 13:16,C160,Chennai,chat,Account,medium,closed,,"I can't reset my password, the email never arrives.",45.4,1
+T1053,2026-09-01 07:12,C108,Kolkata,email,Billing,medium,closed,Meera,Coupon code isn't applying at checkout.,59.8,4
+T1054,2026-07-16 11:10,C149,Delhi,phone,Account,low,resolved,Aarav,How do I change the email on my profile?,92.5,2
+T1055,2026-06-23 12:25,C106,Pune,email,Shipping,high,closed,Kabir,My order hasn't arrived after 10 days.,19.4,4
+T1056,2026-05-17 13:42,C100,Hyderabad,web form,Account,low,resolved,Rohan,Two-factor codes are not being accepted.,48.8,5
+T1057,2026-04-22 05:46,C129,Hyderabad,phone,Technical,medium,resolved,Meera,The app crashes every time I open the camera feature.,62.6,
+T1058,2026-08-14 14:15,C121,Indore,web form,Account,high,closed,Meera,Two-factor codes are not being accepted.,54.9,4
+T1059,2026-04-01 08:21,C138,Pune,email,Technical,medium,in_progress,Meera,The app crashes every time I open the camera feature.,,
+T1060,2026-07-04 13:31,C141,Kolkata,web form,Technical,high,resolved,Aarav,Uploaded images are not showing in my gallery.,23.5,
+T1061,15/03/2026 10:30,C135,Chennai,web form,Technical,urgent,resolved,Kabir,Uploaded images are not showing in my gallery.,56.0,
+T1062,2026-06-29 14:17,C120,Mumbai,chat,Account,low,resolved,,Two-factor codes are not being accepted.,22.5,4
+T1063,2026-07-05 18:48,C153,Bengaluru,phone,Account,low,resolved,Meera,How do I change the email on my profile?,27.5,2
+T1064,2026-07-01 17:08,C103,Pune,chat,Billing,medium,in_progress,Sana,I was charged twice for my subscription this month.,,
+T1065,2026-05-27 09:30,C116,Kolkata,email,Billing,high,resolved,Sana,Coupon code isn't applying at checkout.,33.0,1
+T1066,2026-05-28 20:43,C109,Pune,email,Billing,urgent,open,Aarav,Coupon code isn't applying at checkout.,,
+T1067,2026-06-02 19:14,C119,Hyderabad,phone,Shipping,medium,closed,Aarav,My order hasn't arrived after 10 days.,36.8,
+T1068,2026-06-10 06:16,C135,Mumbai,chat,Technical,low,resolved,Sana,The export to CSV button does nothing.,15.5,3
+T1069,2026-01-09 07:18,C104,Bengaluru,phone,Account,high,closed,,Please delete my account and all my data.,67.6,
+T1070,2026-01-30 17:14,C104,Indore,chat,Feedback,high,resolved,Kabir,Please add support for batch uploads.,87.3,3
+T1071,2026-02-01 14:44,C132,Kolkata,web form,Feedback,low,resolved,Aarav,Search results feel slow and unhelpful.,38.9,5
+T1072,2026-06-04 08:01,C143,Indore,phone,Account,medium,open,Meera,Two-factor codes are not being accepted.,,
+T1073,2026-06-16 14:58,C137,Hyderabad,web form,Shipping,urgent,in_progress,Sana,Package arrived damaged.,,
+T1074,2026-03-27 10:42,C110,Chennai,web form,Feedback,medium,open,Rohan,Search results feel slow and unhelpful.,,
+T1075,2026-01-10 14:05,C155,Indore,web form,Shipping,medium,resolved,Meera,Package arrived damaged.,31.4,4
+T1076,2026-07-13 15:40,C135,Delhi,phone,Shipping,medium,resolved,,Wrong item delivered.,5.4,5
+T1077,2026-01-08 20:38,C135,Indore,web form,Billing,low,closed,Aarav,Coupon code isn't applying at checkout.,68.3,5
+T1078,2026-06-15 04:31,C126,Kolkata,web form,Billing,low,closed,Kabir,My invoice shows the wrong amount.,28.4,5
+T1079,2026-02-18 19:32,C117,Hyderabad,phone,Feedback,urgent,closed,Kabir,Please add support for batch uploads.,13.5,2
+T1080,2026-03-14 23:19,C155,Delhi,web form,Billing,medium,closed,Rohan,I need a refund for an accidental purchase.,55.9,
+T1081,2026-07-15 17:24,C144,Bengaluru,web form,Shipping,low,resolved,Sana,My order hasn't arrived after 10 days.,-3,4
+T1082,2026-07-10 15:45,C131,Indore,chat,Account,medium,closed,Kabir,How do I change the email on my profile?,36.9,3
+T1083,2026-08-12 14:06,C126,Delhi,email,Billing,medium,resolved,Rohan,I need a refund for an accidental purchase.,44.1,3
+T1084,2026-06-27 12:41,C121,Hyderabad,phone,Shipping,medium,open,Sana,My order hasn't arrived after 10 days.,,
+T1085,2026-01-18 07:40,C147,Mumbai,web form,Shipping,urgent,resolved,,My order hasn't arrived after 10 days.,27.9,4
+T1086,2026-02-12 22:19,C118,Chennai,phone,Feedback,medium,closed,Meera,Search results feel slow and unhelpful.,4.9,1
+T1087,2026-06-24 05:10,C139,Hyderabad,chat,Shipping,medium,in_progress,Kabir,Tracking number shows no updates.,,
+T1088,2026-04-29 20:16,C157,Pune,chat,Technical,low,resolved,Rohan,Uploaded images are not showing in my gallery.,64.2,
+T1089,2026-06-26 08:29,C154,Kolkata,email,Feedback,low,closed,Kabir,Please add support for batch uploads.,19.5,4
+T1090,2026-03-17 22:18,C153,Hyderabad,phone,Shipping,low,open,,My order hasn't arrived after 10 days.,,
+T1091,2026-07-10 15:53,C138,Chennai,chat,Shipping,medium,closed,Kabir,Package arrived damaged.,27.8,4
+T1092,2026-06-10 03:57,C102,Chennai,chat,Technical,low,resolved,Rohan,Uploaded images are not showing in my gallery.,4.3,
+T1093,2026-02-14 06:08,C133,Pune,chat,Feedback,low,closed,Sana,Please add support for batch uploads.,84.2,5
+T1094,2026-07-25 03:29,C155,Hyderabad,phone,Account,low,closed,Sana,"I can't reset my password, the email never arrives.",13.9,4
+T1095,2026-05-18 03:29,C137,Hyderabad,phone,Account,low,resolved,Meera,Two-factor codes are not being accepted.,72.0,5
+T1096,2026-06-08 17:20,C140,Kolkata,phone,Billing,medium,closed,Aarav,My invoice shows the wrong amount.,21.6,2
+T1097,2026-08-31 01:19,C156,Delhi,web form,Billing,medium,closed,,Coupon code isn't applying at checkout.,11.6,4
+T1098,2026-07-10 23:09,C139,Hyderabad,phone,Shipping,low,closed,Rohan,Tracking number shows no updates.,63.0,
+T1099,2026-04-24 07:54,C134,Chennai,email,Feedback,medium,resolved,Meera,"Love the new dashboard, but dark mode would be great.",94.2,5
+T1100,2026-01-24 21:13,C103,Chennai,chat,Feedback,urgent,resolved,Kabir,The onboarding tutorial was confusing.,57.5,1
+T1101,2026-08-01 17:13,C121,Delhi,email,Billing,low,resolved,Meera,My invoice shows the wrong amount.,78.1,4
+T1102,2026-03-06 05:07,C122,Bengaluru,phone,Shipping,low,resolved,Rohan,My order hasn't arrived after 10 days.,3.0,1
+T1103,2026-07-09 13:33,C104,Kolkata,web form,Technical,high,open,Kabir,The app crashes every time I open the camera feature.,,
+T1104,2026-05-09 07:39,C150,Pune,web form,Feedback,medium,open,Aarav,"Love the new dashboard, but dark mode would be great.",,
+T1105,2026-08-05 12:27,C104,Mumbai,phone,Feedback,medium,resolved,Aarav,The onboarding tutorial was confusing.,47.3,
+T1106,2026-06-09 20:37,C129,Hyderabad,email,Account,high,resolved,Aarav,Please delete my account and all my data.,31.6,5
+T1107,2026-04-26 07:26,C146,Mumbai,phone,Feedback,medium,resolved,,Please add support for batch uploads.,43.8,4
+T1108,2026-09-02 04:43,C105,Hyderabad,email,Account,high,closed,Rohan,Please delete my account and all my data.,6.9,2
+T1109,2026-01-16 18:35,C122,Hyderabad,email,Shipping,urgent,resolved,Kabir,Package arrived damaged.,64.5,4
+T1110,2026-01-27 18:32,C142,Kolkata,chat,Account,high,in_progress,Rohan,How do I change the email on my profile?,,
+T1111,2026-07-15 08:36,C127,Indore,phone,Billing,low,in_progress,Rohan,I need a refund for an accidental purchase.,,
+T1112,2026-03-31 00:11,C104,Delhi,email,Account,low,closed,Kabir,Please delete my account and all my data.,54.6,4
+T1113,2026-04-18 14:21,C119,Chennai,email,Feedback,high,in_progress,Meera,The onboarding tutorial was confusing.,,
+T1114,2026-01-13 21:05,C142,Hyderabad,web form,Shipping,medium,in_progress,Sana,Package arrived damaged.,,
+T1115,2026-07-13 16:07,C133,Pune,email,Technical,low,resolved,Kabir,The app crashes every time I open the camera feature.,11.1,
+T1116,2026-02-22 09:13,C120,Mumbai,email,Billing,medium,closed,Sana,My invoice shows the wrong amount.,73.5,5
+T1117,2026-04-08 17:45,C135,Chennai,email,Technical,medium,in_progress,,The app crashes every time I open the camera feature.,,
+T1118,2026-01-05 14:58,C120,Hyderabad,web form,Feedback,high,open,Sana,Please add support for batch uploads.,,
+T1119,2026-04-14 00:20,C160,Kolkata,phone,Billing,low,in_progress,Aarav,My invoice shows the wrong amount.,,
+T1120,2026-05-31 12:33,C155,Pune,phone,Feedback,low,open,Meera,"Love the new dashboard, but dark mode would be great.",,
+T1121,2026-06-12 03:33,C122,Delhi,chat,Shipping,low,resolved,Rohan,Tracking number shows no updates.,87.0,5
+T1122,2026-06-04 04:48,C129,Kolkata,phone,Technical,high,closed,,Uploaded images are not showing in my gallery.,7.7,
+T1123,2026-04-23 02:30,C137,Indore,phone,Technical,medium,resolved,Rohan,The export to CSV button does nothing.,29.4,5
+T1124,2026-01-10 01:23,C139,Hyderabad,web form,Feedback,medium,closed,,"Love the new dashboard, but dark mode would be great.",7.8,2
+T1125,2026-08-21 18:41,C138,Kolkata,chat,Feedback,urgent,in_progress,Sana,"Love the new dashboard, but dark mode would be great.",,
+T1126,2026-07-02 02:32,C128,Delhi,phone,Account,medium,resolved,Rohan,Two-factor codes are not being accepted.,4.2,
+T1127,2026-07-18 10:43,C104,Chennai,email,Feedback,medium,resolved,Sana,Please add support for batch uploads.,75.9,5
+T1128,2026-07-05 21:58,C137,Delhi,phone,Account,medium,resolved,,Two-factor codes are not being accepted.,14.9,2
+T1129,2026-06-02 22:05,C152,Delhi,email,Technical,medium,resolved,Sana,Uploaded images are not showing in my gallery.,36.5,5
+T1130,2026-04-03 09:11,C112,Bengaluru,chat,Billing,low,closed,Rohan,I was charged twice for my subscription this month.,33.1,
+T1131,2026-07-17 17:53,C156,Delhi,web form,Shipping,low,closed,Meera,Tracking number shows no updates.,50.8,5
+T1132,2026-01-12 13:23,C139,Pune,web form,Feedback,low,resolved,Meera,Please add support for batch uploads.,23.2,
+T1133,2026-08-20 06:23,C129,Pune,web form,Feedback,medium,resolved,Sana,The onboarding tutorial was confusing.,55.0,
+T1134,2026-07-25 19:08,C155,Chennai,email,Technical,high,closed,Kabir,The app crashes every time I open the camera feature.,5.5,
+T1135,2026-01-22 05:17,C105,Bengaluru,web form,Account,high,resolved,Aarav,Two-factor codes are not being accepted.,49.5,4
+T1136,2026-04-12 16:23,C105,Chennai,chat,Billing,low,in_progress,Aarav,I need a refund for an accidental purchase.,,
+T1137,2026-02-05 01:18,C148,Kolkata,web form,Technical,medium,closed,Aarav,The app crashes every time I open the camera feature.,45.6,3
+T1138,2026-02-25 04:35,C107,Pune,chat,Account,medium,closed,Aarav,Please delete my account and all my data.,58.6,4
+T1139,2026-06-13 19:29,C153,Kolkata,email,Feedback,medium,open,Kabir,The onboarding tutorial was confusing.,,
+T1140,2026-03-16 13:00,C111,Mumbai,phone,Technical,low,resolved,Kabir,The app crashes every time I open the camera feature.,23.5,4
+T1141,2026-08-12 15:02,C147,Indore,phone,Feedback,high,resolved,Rohan,The onboarding tutorial was confusing.,94.2,5
+T1142,2026-07-17 18:47,C134,Chennai,chat,Billing,high,closed,,Coupon code isn't applying at checkout.,13.2,5
+T1143,2026-06-11 05:51,C145,Kolkata,email,Feedback,low,open,Aarav,The onboarding tutorial was confusing.,,
+T1144,2026-03-22 09:32,C116,Indore,chat,Billing,low,resolved,Aarav,I need a refund for an accidental purchase.,78.4,
+T1145,2026-02-01 11:27,C121,Delhi,web form,Account,medium,closed,Rohan,How do I change the email on my profile?,71.5,4
+T1146,2026-07-06 13:05,C134,Pune,phone,Billing,low,resolved,Rohan,I need a refund for an accidental purchase.,95.5,3
+T1147,2026-04-25 19:45,C128,Indore,phone,Account,medium,resolved,Sana,How do I change the email on my profile?,66.4,5
+T1148,2026-01-20 21:40,C160,Indore,chat,Billing,high,resolved,,Coupon code isn't applying at checkout.,49.5,3
+T1149,2026-02-02 02:15,C160,Indore,chat,Billing,medium,closed,Rohan,I need a refund for an accidental purchase.,35.5,4
+T1150,2026-07-15 02:36,C123,Hyderabad,phone,Feedback,medium,open,Meera,"Love the new dashboard, but dark mode would be great.",,
+T1151,2026-07-08 05:31,C116,Pune,web form,Billing,low,resolved,Kabir,I need a refund for an accidental purchase.,87.7,2
+T1152,2026-02-21 03:08,C105,Chennai,phone,Feedback,high,closed,Kabir,Please add support for batch uploads.,43.7,
+T1153,2026-08-06 05:45,C150,Chennai,chat,Account,low,closed,Meera,Please delete my account and all my data.,67.4,3
+T1154,2026-07-22 15:01,C151,Delhi,email,Technical,low,resolved,Sana,The export to CSV button does nothing.,55.2,
+T1155,2026-04-16 13:52,C141,Mumbai,web form,Shipping,medium,resolved,Kabir,Package arrived damaged.,12.5,5
+T1156,2026-08-13 17:40,C127,Indore,email,Technical,medium,resolved,Rohan,Login keeps failing with a timeout error.,73.8,3
+T1157,2026-03-24 22:14,C154,Mumbai,phone,Technical,low,resolved,Kabir,Uploaded images are not showing in my gallery.,90.4,5
+T1158,2026-06-10 09:39,C137,Delhi,chat,Technical,medium,resolved,,Uploaded images are not showing in my gallery.,48.5,3
+T1159,2026-01-11 00:05,C141,Pune,chat,Shipping,high,open,Sana,My order hasn't arrived after 10 days.,,
+T1160,2026-08-16 20:34,C119,Kolkata,chat,Feedback,high,in_progress,,Search results feel slow and unhelpful.,,
+T1161,2026-04-27 02:44,C128,Hyderabad,web form,Account,medium,open,Rohan,Please delete my account and all my data.,,
+T1162,2026-08-09 22:20,C108,Chennai,email,Account,medium,closed,Sana,"I can't reset my password, the email never arrives.",82.7,4
+T1163,2026-04-26 07:09,C118,Hyderabad,web form,Account,low,open,Meera,How do I change the email on my profile?,,
+T1164,2026-07-04 10:12,C131,Pune,web form,Shipping,low,closed,Sana,Wrong item delivered.,48.1,
+T1165,2026-02-25 18:22,C118,Kolkata,web form,Technical,low,open,Aarav,The app crashes every time I open the camera feature.,,
+T1166,2026-02-04 08:46,C125,Indore,chat,Feedback,medium,resolved,Rohan,"Love the new dashboard, but dark mode would be great.",39.0,1
+T1167,2026-05-10 14:48,C108,Mumbai,web form,Feedback,medium,resolved,Rohan,Please add support for batch uploads.,79.3,2
+T1168,2026-02-20 19:32,C108,Chennai,web form,Technical,medium,resolved,Meera,Login keeps failing with a timeout error.,4.3,1
+T1169,2026-08-27 19:20,C139,Pune,phone,Account,medium,in_progress,Kabir,Two-factor codes are not being accepted.,,
+T1170,2026-03-18 15:52,C121,Mumbai,web form,Shipping,medium,open,,My order hasn't arrived after 10 days.,,
+T1171,2026-05-02 08:41,C146,Indore,web form,Shipping,low,closed,,Wrong item delivered.,74.6,4
+T1172,2026-07-30 21:15,C160,Mumbai,chat,Technical,low,open,Rohan,The export to CSV button does nothing.,,
+T1173,2026-04-16 22:13,C155,Indore,chat,Technical,medium,resolved,Kabir,Uploaded images are not showing in my gallery.,74.5,
+T1174,2026-05-15 12:20,C134,Chennai,phone,Feedback,medium,closed,Meera,The onboarding tutorial was confusing.,44.4,5
+T1175,2026-05-23 09:14,C145,Bengaluru,web form,Account,medium,closed,Rohan,How do I change the email on my profile?,94.3,5
+T1176,2026-02-01 18:43,C152,Chennai,chat,Account,low,resolved,Rohan,"I can't reset my password, the email never arrives.",86.0,4
+T1177,2026-08-25 14:41,C130,Bengaluru,chat,Account,high,in_progress,Rohan,How do I change the email on my profile?,,
+T1178,2026-01-28 19:47,C140,Bengaluru,email,Technical,low,resolved,Rohan,The export to CSV button does nothing.,23.7,4
+T1179,2026-06-24 04:00,C126,Kolkata,web form,Billing,medium,closed,Rohan,I need a refund for an accidental purchase.,93.9,3
+T1180,2026-06-15 01:58,C134,Indore,chat,Account,medium,closed,Meera,"I can't reset my password, the email never arrives.",62.8,4
+T1181,2026-07-21 15:11,C156,Indore,email,Feedback,low,closed,Kabir,"Love the new dashboard, but dark mode would be great.",92.4,5
+T1182,2026-03-14 14:41,C154,Kolkata,phone,Account,low,resolved,Aarav,How do I change the email on my profile?,47.7,3
+T1183,2026-07-07 14:41,C111,Indore,phone,Technical,high,in_progress,Kabir,Login keeps failing with a timeout error.,,
+T1184,2026-06-06 20:57,C105,Hyderabad,email,Technical,low,resolved,Meera,The export to CSV button does nothing.,41.3,5
+T1185,2026-08-28 07:00,C115,Kolkata,phone,Account,urgent,in_progress,Rohan,"I can't reset my password, the email never arrives.",,
+T1186,2026-06-17 11:44,C142,Mumbai,web form,Account,medium,in_progress,Sana,How do I change the email on my profile?,,
+T1187,2026-06-13 09:23,C130,Delhi,web form,Billing,high,resolved,Kabir,I need a refund for an accidental purchase.,21.4,3
+T1188,2026-06-29 17:58,C148,Bengaluru,email,Feedback,medium,resolved,Kabir,Please add support for batch uploads.,51.8,4
+T1189,2026-08-23 18:07,C135,Bengaluru,chat,Billing,low,open,Kabir,Coupon code isn't applying at checkout.,,
+T1190,2026-06-24 06:45,C151,Indore,web form,Billing,low,resolved,Sana,Coupon code isn't applying at checkout.,9.2,
+T1191,2026-01-15 17:29,C125,Pune,email,Shipping,high,resolved,Kabir,My order hasn't arrived after 10 days.,29.9,1
+T1192,2026-04-19 11:44,C103,Mumbai,web form,Billing,low,open,Sana,My invoice shows the wrong amount.,,
+T1193,2026-07-16 20:46,C128,Hyderabad,web form,Technical,low,resolved,,Login keeps failing with a timeout error.,40.6,4
+T1194,2026-01-31 05:34,C153,Indore,email,Account,urgent,resolved,Sana,Two-factor codes are not being accepted.,12.7,4
+T1195,2026-04-08 07:15,C159,Mumbai,email,Shipping,high,resolved,Sana,My order hasn't arrived after 10 days.,15.3,4
+T1196,2026-02-22 02:06,C115,Indore,web form,Technical,medium,resolved,Kabir,Login keeps failing with a timeout error.,43.1,1
+T1197,2026-02-05 16:18,C158,Chennai,phone,Billing,low,in_progress,Meera,My invoice shows the wrong amount.,,
+T1198,2026-03-18 08:03,C140,Hyderabad,web form,Feedback,low,resolved,Rohan,Search results feel slow and unhelpful.,57.0,3
+T1199,2026-03-23 22:26,C148,Kolkata,chat,Shipping,high,resolved,Rohan,Tracking number shows no updates.,29.1,3
+T1200,2026-08-23 01:35,C124,Bengaluru,phone,Feedback,low,resolved,,"Love the new dashboard, but dark mode would be great.",40.3,3
+T1006,2026-04-27 20:53,C142,Pune,email,Account,medium,resolved,Meera,Please delete my account and all my data.,35.9,4
+T1091,2026-07-10 15:53,C138,Chennai,chat,Shipping,medium,closed,Kabir,Package arrived damaged.,27.8,4

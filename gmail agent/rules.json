@@ -1,0 +1,49 @@
+{
+  "_help": "Edit freely. Senders can be a full address (a@b.com) or a domain (b.com / @b.com). Keywords are matched as whole words/phrases, case-insensitive.",
+  "vip_senders": ["placements@youruniversity.ac.in", "professor.name@youruniversity.ac.in", "recruiter@company.com"],
+  "ignore_senders": ["noreply@medium.com", "@quora.com", "@udemy.com"],
+  "important_keywords": [
+    "internship",
+    "interview",
+    "offer letter",
+    "shortlisted",
+    "selected",
+    "deadline",
+    "hackathon",
+    "result",
+    "results",
+    "admit card",
+    "exam",
+    "assignment",
+    "scholarship",
+    "application status",
+    "registration",
+    "submission",
+    "payment failed",
+    "invoice",
+    "security alert"
+  ],
+  "ignore_keywords": [
+    "unsubscribe",
+    "sale",
+    "% off",
+    "discount",
+    "webinar",
+    "newsletter"
+  ],
+  "linkedin_signal_patterns": [
+    "messaged you",
+    "sent you a message",
+    "invitation",
+    "want to connect",
+    "wants to connect"
+  ],
+  "ignore_gmail_categories": [
+    "CATEGORY_PROMOTIONS",
+    "CATEGORY_SOCIAL",
+    "CATEGORY_FORUMS"
+  ],
+  "llm_enabled": true,
+  "my_name": "Shubh",
+  "reply_style": "Friendly, concise and professional. Short paragraphs. Sign off with 'Best regards'."
+}

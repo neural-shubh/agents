@@ -1,0 +1,114 @@
+[
+  {
+    "id": "1a1264fee5be2f9a",
+    "thread_id": "1a1264fee5be2f9a",
+    "sender_name": "Google",
+    "sender_addr": "no-reply@accounts.google.com",
+    "subject": "Security alert",
+    "snippet": "You allowed Gmail-agent access to some of your Google Account data shubhsh522@gmail.com If you didn't allow Gmail-agent access to some of your Google Account data, someone else may be trying to",
+    "labels": [
+      "CATEGORY_UPDATES",
+      "INBOX"
+    ],
+    "time": "10 Oct 20:25",
+    "ts": 1791644134.0,
+    "category": "worth_reading",
+    "reason": "keyword: security alert",
+    "summary": null,
+    "number": 2
+  },
+  {
+    "id": "1a12638eeb9a7244",
+    "thread_id": "1a12638eeb9a7244",
+    "sender_name": "Docker",
+    "sender_addr": "no-reply@docker.com",
+    "subject": "Welcome to Docker: Connect and run MCP servers easily and securely",
+    "snippet": "You're in! Docker MCP Catalog and Toolkit helps you discover trusted MCP servers, run them securely, and connect seamlessly to your favorite coding agents. Hi there, Welcome to Docker MCP Catalog",
+    "labels": [
+      "CATEGORY_PROMOTIONS",
+      "UNREAD",
+      "INBOX"
+    ],
+    "time": "10 Oct 20:00",
+    "ts": 1791642627.0,
+    "category": "ignore",
+    "reason": "promotions/social/forums",
+    "summary": null
+  },
+  {
+    "id": "1a12623f44b1e7a2",
+    "thread_id": "1a12623f44b1e7a2",
+    "sender_name": "Deependra Singh",
+    "sender_addr": "invitations@linkedin.com",
+    "subject": "You have an invitation",
+    "snippet": "Deependra, Digital Content Creator from Self Employed is waiting for your response",
+    "labels": [
+      "UNREAD",
+      "CATEGORY_SOCIAL",
+      "INBOX"
+    ],
+    "time": "10 Oct 19:37",
+    "ts": 1791641252.0,
+    "category": "linkedin",
+    "reason": "LinkedIn: invitation",
+    "summary": null,
+    "number": 3
+  },
+  {
+    "id": "1a125a77d4d479df",
+    "thread_id": "1a125a77d4d479df",
+    "sender_name": "Shubh Sharma",
+    "sender_addr": "shubhsharma0905@gmail.com",
+    "subject": "agent test",
+    "snippet": "Hey Shubh, can you join a project call tomorrow? When are you free?",
+    "labels": [
+      "UNREAD",
+      "IMPORTANT",
+      "CATEGORY_PERSONAL",
+      "INBOX"
+    ],
+    "time": "10 Oct 17:21",
+    "ts": 1791633086.0,
+    "category": "needs_reply",
+    "reason": "LLM",
+    "summary": "Shubh Sharma wants to schedule a project call tomorrow",
+    "number": 1
+  },
+  {
+    "id": "1a125483baf72d6c",
+    "thread_id": "1a125483baf72d6c",
+    "sender_name": "LinkedIn",
+    "sender_addr": "messages-noreply@linkedin.com",
+    "subject": "31 profile views",
+    "snippet": "You're getting noticed",
+    "labels": [
+      "UNREAD",
+      "CATEGORY_SOCIAL",
+      "INBOX"
+    ],
+    "time": "10 Oct 15:37",
+    "ts": 1791626853.0,
+    "category": "ignore",
+    "reason": "LinkedIn notification",
+    "summary": null
+  },
+  {
+    "id": "1a1216b7e55e7afa",
+    "thread_id": "1a1216b7e55e7afa",
+    "sender_name": "Harsh Halwai",
+    "sender_addr": "invitations@linkedin.com",
+    "subject": "I want to connect",
+    "snippet": "Harsh is waiting for your response",
+    "labels": [
+      "UNREAD",
+      "CATEGORY_SOCIAL",
+      "INBOX"
+    ],
+    "time": "09 Oct 21:37",
+    "ts": 1791562055.0,
+    "category": "linkedin",
+    "reason": "LinkedIn: want to connect",
+    "summary": null,
+    "number": 4
+  }
+]

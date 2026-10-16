@@ -11,7 +11,7 @@ A collection of AI agents I'm building to automate everyday work: pushing code t
 | [github agent](github%20agent) | Pushes folders and files to GitHub, creates repos, opens issues and pull requests, with an approval step before anything changes | LangGraph, git, GitHub REST API | Working |
 | [gmail agent](gmail%20agent) | Inbox triage, a digest of important emails, and drafting replies | Python, Gmail API | In progress |
 | [Local-Ai-agent](Local-Ai-agent) | A question-answering agent over a CSV of support tickets that runs fully locally | LangChain, Ollama, Chroma | Experimental |
-| [sysagent](sysagent) | Manages OS, storage status, pending and upcoming updates, large unused files | Python, winget, OS config | WorkingS |
+| [sysagent](sysagent) | Manages OS, storage status, pending and upcoming updates, large unused files | Python, winget, OS config | Working |
 
 ## The projects in a bit more detail
 

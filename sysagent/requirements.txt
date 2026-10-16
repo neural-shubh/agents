@@ -1,0 +1,6 @@
+psutil>=5.9.0
+streamlit>=1.30.0
+send2trash>=1.8.0
+pandas>=2.0.0
+plotly>=5.18.0
+schedule>=1.2.0

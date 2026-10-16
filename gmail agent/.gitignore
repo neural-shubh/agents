@@ -1,0 +1,43 @@
+# --- Secrets (never commit) ---
+.env
+.env.*
+!.env.example
+credentials.json
+token.json
+client_secret*.json
+*.pem
+*.key
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- Notebooks ---
+.ipynb_checkpoints/
+
+# --- Local data / logs ---
+*.db
+*.sqlite
+*.sqlite3
+logs/
+*.log
+
+# --- Editors / OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.send_log.json
+
+.env
+credentials.json
+token.json
+venv/
+__pycache__/

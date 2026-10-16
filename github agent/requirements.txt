@@ -1,0 +1,9 @@
+langchain
+langchain-ollama
+langchain-openai
+langchain-google-genai
+langchain-chroma
+langchain-core
+langchain-community
+langgraph
+langsmith

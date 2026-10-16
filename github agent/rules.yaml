@@ -1,0 +1,62 @@
+common:
+  - id: readme
+    severity: must
+    any_of: [README.md, README.rst, README.txt, README]
+    message: No README found
+    suggestion: Add a README.md covering what the project does, how to install it, and how to run it.
+
+  - id: gitignore
+    severity: must
+    any_of: [.gitignore]
+    message: No .gitignore at the project root
+    suggestion: Add a .gitignore so environments, caches and secrets are never pushed.
+
+  - id: license
+    severity: should
+    any_of: [LICENSE, LICENSE.md, LICENSE.txt]
+    message: No LICENSE file
+    suggestion: Add a license (MIT is a common choice) so others know how they may use the code.
+
+python:
+  - id: requirements
+    severity: must
+    any_of: [requirements.txt, pyproject.toml, environment.yml, Pipfile]
+    message: No dependency file found
+    suggestion: Add a requirements.txt listing every package the project imports, so others can install it.
+
+by_type:
+  streamlit:
+    - id: streamlit_entry
+      severity: should
+      any_of: [app.py, streamlit_app.py, main.py]
+      message: No obvious Streamlit entry file
+      suggestion: Streamlit Community Cloud needs a known entry file (app.py or streamlit_app.py at the root works best).
+
+  gradio:
+    - id: gradio_entry
+      severity: must
+      any_of: [app.py]
+      message: No app.py at the root
+      suggestion: Hugging Face Spaces expects app.py as the entry file for Gradio apps.
+    - id: hf_metadata
+      severity: nice
+      readme_contains: ["sdk:"]
+      message: README has no Hugging Face Space metadata block
+      suggestion: If this will be deployed as a Space, add the YAML front matter (title, sdk, app_file) at the top of README.md.
+
+  notebook:
+    - id: colab_badge
+      severity: nice
+      readme_contains: ["colab.research.google.com"]
+      message: README has no Open in Colab badge
+      suggestion: Add an Open in Colab badge linking to the notebook so people can run it in one click.
+
+  pages:
+    - id: pages_index
+      severity: must
+      any_of: [index.html]
+      message: No index.html at the root
+      suggestion: GitHub Pages serves index.html from the root (or /docs) of the chosen branch.
+
+  python_project: []
+  library: []
